@@ -82,7 +82,7 @@
   }
 }
 
-.card__rating input:checked ~ label {
+.card__rating input:checked~label {
   opacity: 1;
 }
 

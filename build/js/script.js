@@ -1,21 +1,20 @@
 $(function () {
   $('.owl-carousel').owlCarousel({
-    nav:true,
+    nav: true,
     pagination: true,
-    responsive:{
+    responsive: {
       320: {
         items: 1,
-        pagination: true,
-        nav:false
+        nav: false
       },
-      768:{
-          items:2,
+      768: {
+        items: 2,
       },
-      992:{
-          items:3
+      992: {
+        items: 3
       },
-      1200:{
-          items:4
+      1200: {
+        items: 4
       }
     }
   });
